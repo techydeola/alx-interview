@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
+"""A function that returns the pascal triangle of a given number
+Keyword arguments:
+triangle_list -- a list of lists of each row in the triangle
+Return: triangle list if exist
+        else - return an empty list
+"""
+
 def pascal_triangle(n):
-    """A function that returns the pascal triangle of a given number
-    Keyword arguments:
-    triangle_list -- a list of lists of each row in the triangle
-    Return: triangle list if exist
-            else - return an empty list
-    """
     if (n <= 0):
         return []
 
