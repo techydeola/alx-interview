@@ -9,6 +9,9 @@ Return: triangle list if exist
 
 
 def pascal_triangle(n):
+    """ returns the triangle
+    """
+    
     if (n <= 0):
         return []
 
