@@ -7,6 +7,7 @@ Return: triangle list if exist
         else - return an empty list
 """
 
+
 def pascal_triangle(n):
     if (n <= 0):
         return []
